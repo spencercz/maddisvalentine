@@ -28,8 +28,6 @@ const burst = new mojs.Burst({
   children: {
     radius:       2.5,
     fill:         [
-      // { '#91D2FA' : '#BDEFD8' },
-      // { '#91D2FA' : '#ADD6CA' },
       { '#9EC9F5' : '#9ED8C6' },
       { '#91D3F7' : '#9AE4CF' },
       
@@ -53,7 +51,6 @@ const burst = new mojs.Burst({
     degreeShift:  [ 13, null ],
     duration:     [ 500, 700 ],
     easing:       'quint.out',
-    // speed: .1
   }
 });
 
@@ -70,7 +67,6 @@ const heart = new mojs.Shape({
 
 i = setInterval(function () {
   const coords = { x: Math.random()*(window.innerWidth), y: Math.random()*(window.innerHeight) };
-  console.log(coords.y);
   burst
     .tune(coords)
     .replay();
