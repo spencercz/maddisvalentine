@@ -1,0 +1,76 @@
+.p1 {
+  padding: 0;
+  text-align: center;
+  font-family: "Edwardian Script ITC";
+  font-size: 80px;
+}
+
+.p2 {
+  padding: 0;
+  text-align: center;
+  font-family: "Edwardian Script ITC";
+  font-size: 60px;
+}
+
+.bottom {
+  padding: 0;
+  position: fixed;
+  font-family: "Edwardian Script ITC";
+  font-size: 40px;
+  bottom: 0;
+}
+
+body {
+  background: #FFC0CB;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
