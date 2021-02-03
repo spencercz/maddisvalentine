@@ -84,4 +84,4 @@ i = setInterval(function () {
     .replay();
   
 }, 1000);
-}
+})
