@@ -1,21 +1,21 @@
 .p1 {
   padding: 0;
   text-align: center;
-  font-family: "Brush Script MT";
+  font-family: Brush Script MT;
   font-size: 80px;
 }
 
 .p2 {
   padding: 0;
   text-align: center;
-  font-family: "Brush Script MT";
+  font-family: Brush Script MT;
   font-size: 60px;
 }
 
 .bottom {
   padding: 0;
   position: fixed;
-  font-family: "Brush Script MT";
+  font-family: Brush Script MT;
   font-size: 40px;
   bottom: 0;
 }
