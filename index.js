@@ -80,6 +80,17 @@ window.onload = function(){
       .replay();
     
   }, 1000);
+  
+  var a = $("#slides > div").remove().toArray();
+  for (var i = a.length - 1; i >= 1; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var bi = a[i];
+    var bj = a[j];
+    a[i] = bj;
+    a[j] = bi;
+  }
+  
+  $("#slides").append(a);
     
   var slideIndex = 0;
   showSlides();
